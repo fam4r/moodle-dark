@@ -1,7 +1,7 @@
 @-moz-document domain(iol.unibo.it) {
     #learningcontent, .card, h1, .navbar, #nav-drawer, .list-group-item, .btn, i, .content, .section, .summary, .headerbkg {
         background-color: #313131 !important;
-    color: #fff !important;
+        color: #fff !important;
     }
 
     .list-group-item {
