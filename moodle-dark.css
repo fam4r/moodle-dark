@@ -1,10 +1,15 @@
 @-moz-document domain(iol.unibo.it) {
-    #learningcontent, .card, h1, .navbar, #nav-drawer, .list-group-item, .btn, i, .content, .section, .summary, .headerbkg, .m-t-2, .m-b-1, .custom-select, .formulation, .que, .info, .modal-content, .moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content {
+    #learningcontent, .card, h1, .navbar, #nav-drawer, .list-group-item, .btn, i, .content, .section, .summary, .headerbkg, .m-t-2, .m-b-1, .custom-select, .formulation, .que, .info, .modal-content, .moodle-dialogue-base .moodle-dialogue-wrap.moodle-dialogue-content, td.cell {
         background-color: #313131 !important;
         color: #fff !important;
     }
 
     .list-group-item {
         border: 1px solid rgba(255,255,255,255);
+    }
+    
+    .th.cell {
+        background-color: #232323;
+        color: #fff;
     }
 }
